@@ -1,0 +1,15 @@
+/* Archivo de estilos: contiene reglas para h1 y p. */
+
+/* Estilo para el elemento h1 */
+h1{
+    color: blue; /* Color del texto del encabezado (azul) */
+}
+
+/* Estilos para el elemento p (párrafo) */
+p{
+    color: white; /* Color del texto del párrafo (blanco) */
+    background-color: crimson; /* Color de fondo del párrafo (crimson) */
+    padding: 15px; /* Espacio interno entre el contenido y el borde (padding) de 15px */
+    border: 10px solid powderblue; /* Borde de 10px, estilo sólido y color powderblue */
+    margin: 50px; /* Espacio externo alrededor del elemento (margin) de 50px */
+}
