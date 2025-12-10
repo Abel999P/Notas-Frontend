@@ -1,7 +1,10 @@
+/* Estilos para el elemento <h1> */
 h1{
-    color:blue; 
- }
- p{
-     color:white;
-     background-color: crimson;
- }
+    color: blue;      /* Cambia el color del texto del título h1 a azul */
+}
+
+/* Estilos para todos los párrafos <p> */
+p{
+    color: white;             /* Cambia el color del texto del párrafo a blanco */
+    background-color: crimson; /* Pone un fondo color carmesí (rojo intenso) */
+}
