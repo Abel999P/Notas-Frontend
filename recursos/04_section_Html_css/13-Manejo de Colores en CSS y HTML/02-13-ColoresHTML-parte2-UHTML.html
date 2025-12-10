@@ -7,24 +7,48 @@
     <title>Universidad HTML</title>
 </head>
 <body>
-    <h1>Universidad HTML</h1>
-   <p style='color:crimson'>
-       Color por nombre
-   </p>
-   <p style='color:rgb(220, 20, 60)'>
-       Color por código rgb
-   </p>
-   <p style='border:10px solid rgba(220,20,60,.5)'>
+
+    <!-- Color aplicado usando un nombre predefinido por CSS -->
+    <p style='color:crimson'>
+        Color por nombre
+    </p>
+    
+    <!-- Color definido con el modelo RGB: rojo, verde y azul (0 a 255) -->
+    <p style='color:rgb(220, 20, 60)'>
+        Color por código rgb
+    </p>
+    
+    <!-- Borde con color en formato RGBA:
+         R, G, B = valores de color
+         A = alpha (transparencia: 0 = transparente, 1 = opaco) -->
+    <p style='border:10px solid rgba(220,20,60,.5)'>
         Color rgba con transparencia
-   </p>
-   <p style="color:hsl(348, 83%, 47%)">
+    </p>
+    
+    <!-- Color definido en formato HSL:
+    Se mide en grados (0° a 360°) como si fuera un círculo:
+    0° = rojo
+    60° = amarillo
+    120° = verde
+    180° = cian
+    240° = azul
+    300° = magenta
+    360° vuelve al rojo
+    (tono (0–360°), saturación (%), luminosidad (%)) -->
+    <p style="color:hsl(348, 83%, 47%)">
         Color por código hsl
-   </p>
-   <p style='border:10px solid hsla(348,83%,47%,.5)'>
+    </p>
+    
+    <!-- HSLA agrega canal alpha (transparencia) al formato HSL -->
+    <p style='border:10px solid hsla(348,83%,47%,.5)'>
         Color por código hsla con transparencia
-   </p>
-   <p style='color:#DC143C'>
+    </p>
+    
+    <!-- Color expresado en formato hexadecimal: #RRGGBB -->
+    <p style='color:#DC143C'>
         Color por hexadecimal
-   </p>
+    </p>
+
 </body>
+
 </html>
