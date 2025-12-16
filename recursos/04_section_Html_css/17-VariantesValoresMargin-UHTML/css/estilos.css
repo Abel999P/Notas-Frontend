@@ -2,14 +2,20 @@ h1{
     color:blue; 
  }
  p{
-     color:white;
-     background-color: crimson;
-     padding: 15px;
-     border: 10px solid powderblue;
+    color:white;
+    background-color: crimson;
+    padding: 15px;  /* Espacio interno entre el contenido y el borde del elemento */
+    border: 10px solid powderblue; /* Borde de 10 píxeles, estilo sólido y color powderblue */
+    
+     /* Márgenes externos individuales (arriba, derecha, abajo, izquierda)
+       Están comentados y no se aplican */
      /*margin-top: 40px;
      margin-right: 10px;
      margin-bottom: 20px;
      margin-left: 10px;*/
-     margin:auto 50px;
-     text-align: center;
+   
+    margin: auto 50px; /* Margen automático arriba y abajo (centra verticalmente si es posible)
+       y 50px a la izquierda y derecha */
+
+    text-align: center; /* Centra el texto dentro del elemento */
  }
