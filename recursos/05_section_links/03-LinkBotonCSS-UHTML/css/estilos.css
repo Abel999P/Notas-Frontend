@@ -1,14 +1,27 @@
-h1{
-    color:#560bad;
-}
-a:link, a:visited{
-    background-color: #b5179e;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
+/* Estilo para el encabezado principal h1 */
+h1 {
+    color: #560bad; /* Color del texto del título h1 */
 }
 
-a:hover, a:active{
-    background-color: #f72585;
+/* Estilo para los enlaces en estado normal y visitado */
+a:link, 
+a:visited {
+    background-color: #b5179e; /* Color de fondo del enlace */
+    color: white;              /* Color del texto del enlace */
+    padding: 15px 25px;        /* Espacio interno (arriba/abajo - izquierda/derecha) */
+    text-align: center;        /* Centra el texto dentro del enlace */
+    text-decoration: none;    /* Elimina el subrayado del enlace */
 }
+
+/* Estilo cuando el cursor pasa por encima o el enlace está activo */
+a:hover, 
+a:active {
+    background-color: #f72585; /* Cambia el fondo al pasar el mouse o hacer clic */
+}
+/*a:link → enlace normal
+
+a:visited → enlace ya visitado
+
+a:hover → cuando pasas el mouse
+
+a:active → cuando haces clic*/
