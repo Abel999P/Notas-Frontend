@@ -1,21 +1,28 @@
-h1{
-    color: #f07167;
+/* Estilos para los títulos h1 */
+h1 {
+    color: #f07167; /* Define el color del texto del encabezado h1 */
 }
 
+/* Estilo del enlace cuando aún NO ha sido visitado */
 a:link {
-    color:#fb8500;
-    text-decoration: none;
+    color: #fb8500;          /* Color del enlace normal */
+    text-decoration: none;  /* Quita el subrayado del enlace */
 }
-a:visited{
-    color:#219ebc;
-    text-decoration: none;
+
+/* Estilo del enlace cuando YA fue visitado */
+a:visited {
+    color: #219ebc;          /* Color del enlace visitado */
+    text-decoration: none;  /* Mantiene el enlace sin subrayado */
 }
-/*cuando nos ponemos encima del link*/
-a:hover{
-    color:#8ecae6;
-    text-decoration: underline;
+
+/* Estilo cuando el mouse pasa por encima del enlace */
+a:hover {
+    color: #8ecae6;          /* Cambia el color al pasar el cursor */
+    text-decoration: underline; /* Subraya el enlace al pasar el mouse */
 }
+
+/* Estilo cuando el enlace está siendo presionado */
 a:active {
-    color: #023047;
-    text-decoration: underline;
+    color: #023047;          /* Color mientras se hace clic */
+    text-decoration: underline; /* Mantiene el subrayado al hacer clic */
 }
