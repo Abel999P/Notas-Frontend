@@ -1,43 +1,50 @@
+/* Estilos para toda la página (html) */
 html{
-    height: 100%;
+    height: 100%; /* Alto relativo al elemento padre */
 }
+/* Estilos para el cuerpo de la página (body) */
 body{
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(#7209b7, #3f37c0);
+    margin: 0; /* Sin margen externo */
+    padding: 0; /* Sin relleno interno */
+    background: linear-gradient(#7209b7, #3f37c0); /* Fondo con degradado de colores */
 }
+/* Estilos para los elementos con la clase "contenedor" */
 .contenedor{
-    margin: 50px auto;
-    width: 400px;
-    padding: 30px;
-    background: rgba(0,0,0, .5);
-    border-radius: 10px;
+    margin: 50px auto; /* Margen 50px arriba/abajo y automático a los lados (centra horizontalmente) */
+    width: 400px; /* Ancho */
+    padding: 30px; /* Relleno: espacio interno entre el contenido y el borde */
+    background: rgba(0,0,0, .5); /* Color de fondo con transparencia (rgba: rojo, verde, azul y opacidad) */
+    border-radius: 10px; /* Redondea las esquinas */
 }
+/* Estilos para los encabezados h2 que están dentro de los elementos con la clase "contenedor" */
 .contenedor h2{
-    margin: 0 0 30px;
-    padding: 0;
-    font-size: 30px;
-    color: #4cc9f0;
-    text-align: center;
+    margin: 0 0 30px; /* Margen: espacio externo alrededor del elemento (arriba, izquierda/derecha, abajo) */
+    padding: 0; /* Sin relleno interno */
+    font-size: 30px; /* Tamaño de la letra */
+    color: #4cc9f0; /* Color del texto */
+    text-align: center; /* Centra el texto */
 }
+/* Estilos para las etiquetas label que están dentro de los elementos con la clase "elemento" que están dentro de los elementos con la clase "contenedor" */
 .contenedor .elemento label{
-    color: #fff;
+    color: #fff; /* Color del texto */
 }
+/* Estilos para los campos input que están dentro de los elementos con la clase "elemento" que están dentro de los elementos con la clase "contenedor" */
 .contenedor .elemento input{
-    width: 100%;
-    padding: 10px 0;
-    color: #fff;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    margin-bottom: 30px;
+    width: 100%; /* Ancho relativo al elemento padre */
+    padding: 10px 0; /* Relleno: espacio interno entre el contenido y el borde (arriba/abajo, izquierda/derecha) */
+    color: #fff; /* Color del texto */
+    background: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    border-bottom: 1px solid #fff; /* Borde inferior */
+    margin-bottom: 30px; /* Margen externo inferior */
 }
+/* Estilos para los campos input con el atributo [type="submit"] que están dentro de los elementos con la clase "elemento" que están dentro de los elementos con la clase "contenedor" */
 .contenedor .elemento input[type="submit"]{
-    background-color: #f72585;
-    border:none;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    cursor: pointer;
-    padding: 15px;
-    margin-top: 30px;
+    background-color: #f72585; /* Color de fondo */
+    border:none; /* Sin borde */
+    letter-spacing: 5px; /* Espacio entre letras */
+    text-transform: uppercase; /* Convierte el texto a MAYÚSCULAS */
+    cursor: pointer; /* Muestra la manita al pasar el mouse */
+    padding: 15px; /* Relleno: espacio interno entre el contenido y el borde */
+    margin-top: 30px; /* Margen externo superior */
 }
