@@ -1,15 +1,18 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    color: #e63946;
+    text-align: center; /* Centra el texto */
+    color: #e63946; /* Color del texto en hexadecimal */
 }
+/* Estilos para los div */
 div{
-    padding: 10px 15px 5px 3px;
-    border: 1px solid #457b9d;
-    margin-left: 100px;
-    background-color: #f1faee;
-    max-width: 300px;
-    box-sizing: border-box;
+    padding: 10px 15px 5px 3px; /* Relleno: espacio interno entre el contenido y el borde (arriba, derecha, abajo, izquierda) */
+    border: 1px solid #457b9d; /* Borde (atajo: grosor, estilo y color) */
+    margin-left: 100px; /* Margen externo izquierdo */
+    background-color: #f1faee; /* Color de fondo en hexadecimal */
+    max-width: 300px; /* Ancho máximo */
+    box-sizing: border-box; /* El ancho y alto incluyen padding y borde */
 }
+/* Estilos para los párrafos (p) con la clase "interno" */
 p.interno{
-    margin-left: inherit;
+    margin-left: inherit; /* Margen externo izquierdo: hereda el valor del elemento padre */
 }

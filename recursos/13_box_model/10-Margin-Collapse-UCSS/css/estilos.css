@@ -1,22 +1,23 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    color: #e63946;
+    text-align: center; /* Centra el texto */
+    color: #e63946; /* Color del texto en hexadecimal */
 }
+/* Estilos para los elementos con la clase "caja1" */
 .caja1{
-    padding: 10px 15px 5px 3px;
-    border: 1px solid #457b9d;
-    margin: 30px;
-    background-color: #f1faee;
-    max-width: 300px;
-    box-sizing: border-box;
+    padding: 10px 15px 5px 3px; /* Relleno: espacio interno entre el contenido y el borde (arriba, derecha, abajo, izquierda) */
+    border: 1px solid #457b9d; /* Borde (atajo: grosor, estilo y color) */
+    margin: 30px; /* Margen: espacio externo alrededor del elemento */
+    background-color: #f1faee; /* Color de fondo en hexadecimal */
+    max-width: 300px; /* Ancho máximo */
+    box-sizing: border-box; /* El ancho y alto incluyen padding y borde */
 }
+/* Estilos para los elementos con la clase "caja2" */
 .caja2{
-    padding: 10px 15px 5px 3px;
-    border: 1px solid #457b9d;
-    margin: 20px;
-    background-color: #f1faee;
-    max-width: 300px;
-    box-sizing: border-box;
+    padding: 10px 15px 5px 3px; /* Relleno: espacio interno entre el contenido y el borde (arriba, derecha, abajo, izquierda) */
+    border: 1px solid #457b9d; /* Borde (atajo: grosor, estilo y color) */
+    margin: 20px; /* Margen: espacio externo alrededor del elemento */
+    background-color: #f1faee; /* Color de fondo en hexadecimal */
+    max-width: 300px; /* Ancho máximo */
+    box-sizing: border-box; /* El ancho y alto incluyen padding y borde */
 }
-
-
