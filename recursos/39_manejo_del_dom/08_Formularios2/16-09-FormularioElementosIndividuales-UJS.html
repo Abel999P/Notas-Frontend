@@ -1,18 +1,31 @@
 <!DOCTYPE html>
+<!-- La línea anterior declara que el documento usa HTML5 -->
+<!-- Elemento raíz; lang indica el idioma del contenido -->
 <html>
+<!-- head: información de la página que no se muestra directamente -->
 <head>
+    <!-- Codificación de caracteres (permite acentos y ñ) -->
     <meta charset="UTF-8">
+    <!-- Título que aparece en la pestaña del navegador -->
     <title>Ejemplo Formulario con JavaScript</title>
 </head>
+<!-- body: contenido visible de la página -->
 <body>
+    <!-- Formulario con id "formulario" -->
     <form id='formulario'>
+        <!-- Campo de texto de una línea; name es el nombre con el que se envía el dato -->
         Nombre: <input type="text" name='nombre' value='Juan'/>
+        <!-- Salto de línea -->
         <br/>
+        <!-- Campo de texto de una línea; name es el nombre con el que se envía el dato -->
         Apellido: <input type='text' name='apellido' value='Perez'/>
         <br/>
     </form>
+    <!-- Botón (no envía ningún formulario); onclick ejecuta mostrarValores() al hacer clic -->
     <button onclick='mostrarValores()'>Mostrar</button>
+    <!-- Contenedor de bloque (div) con id "valores" -->
     <div id='valores'></div>
+    <!-- Carga el archivo JavaScript ./script/script.js (va al final del body para que el HTML ya esté cargado) -->
     <script src="./script/script.js"></script>
 
 </body>
