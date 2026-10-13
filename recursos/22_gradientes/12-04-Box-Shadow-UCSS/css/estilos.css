@@ -1,25 +1,29 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    text-shadow: 2px 2px 2px #a8dadc;
-    color: #e63946;
+    text-align: center; /* Centra el texto */
+    text-shadow: 2px 2px 2px #a8dadc; /* Sombra del texto (desplazamiento x, y, desenfoque y color) */
+    color: #e63946; /* Color del texto en hexadecimal */
 }
+/* Estilos para los div con la clase "contenedor" */
 div.contenedor{
-    width: 30%;
-    height: 20%;
-    margin: auto;
-    border: 3px solid #a8dadc;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 2px 2px 2px 2px grey;
-    color: #457b9d;
-    border-radius: 15px;
+    width: 30%; /* Ancho relativo al elemento padre */
+    height: 20%; /* Alto relativo al elemento padre */
+    margin: auto; /* Margen automático: centra el elemento horizontalmente */
+    border: 3px solid #a8dadc; /* Borde (atajo: grosor, estilo y color) */
+    padding: 15px; /* Relleno: espacio interno entre el contenido y el borde */
+    text-align: center; /* Centra el texto */
+    box-shadow: 2px 2px 2px 2px grey; /* Sombra de la caja (desplazamiento x, y, desenfoque y color) */
+    color: #457b9d; /* Color del texto en hexadecimal */
+    border-radius: 15px; /* Redondea las esquinas */
 }
+/* Estilos para los div con la clase "cabecero" */
 div.cabecero{
-    background-color: #4cc9f0;
+    background-color: #4cc9f0; /* Color de fondo en hexadecimal */
 }
+/* Estilos para los div con la clase "cuerpo" */
 div.cuerpo{
-    padding-top: 2px;
-    font-size: 1.2em;
-    font-weight: bolder;
-    text-shadow: 2px 2px 2px rgb(177,177,177);
+    padding-top: 2px; /* Relleno interno superior */
+    font-size: 1.2em; /* Tamaño de la letra (em: relativo al tamaño de letra del padre) */
+    font-weight: bolder; /* Texto más grueso */
+    text-shadow: 2px 2px 2px rgb(177,177,177); /* Sombra del texto (desplazamiento x, y, desenfoque y color) */
 }
