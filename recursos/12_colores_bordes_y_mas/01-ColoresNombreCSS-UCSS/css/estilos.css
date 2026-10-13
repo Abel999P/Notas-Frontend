@@ -1,24 +1,32 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
+    text-align: center; /* Centra el texto */
 }
+/* Estilos para los elementos con la clase "rojo" */
 .rojo{
-    background-color: firebrick;
+    background-color: firebrick; /* Color de fondo (color por nombre) */
 }
+/* Estilos para los elementos con la clase "rosa" */
 .rosa{
-    background-color: hotpink;
+    background-color: hotpink; /* Color de fondo (color por nombre) */
 }
+/* Estilos para los elementos con la clase "amarillo" */
 .amarillo{
-    background-color: gold;
+    background-color: gold; /* Color de fondo (color por nombre) */
 }
+/* Estilos para los elementos con la clase "violeta" */
 .violeta{
-    background-color: blueviolet;
+    background-color: blueviolet; /* Color de fondo (color por nombre) */
 }
+/* Estilos para los elementos con la clase "verde" */
 .verde{
-    background-color: lime;
+    background-color: lime; /* Color de fondo (color por nombre) */
 }
+/* Estilos para los elementos con la clase "azul" */
 .azul{
-    background-color: turquoise;
+    background-color: turquoise; /* Color de fondo (color por nombre) */
 }
+/* Estilos para los elementos con la clase "rojo", los elementos con la clase "rosa" y los elementos con la clase "violeta" */
 .rojo, .rosa, .violeta{
-    color:white;
+    color:white; /* Color del texto (color por nombre) */
 }
