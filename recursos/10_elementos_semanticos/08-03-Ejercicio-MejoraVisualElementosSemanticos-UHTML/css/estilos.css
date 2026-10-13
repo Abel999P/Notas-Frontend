@@ -1,45 +1,52 @@
+/* Estilos para el encabezado (header) */
 header{
-    color: #f72585;
-    text-align: center;
-    font-size: 20px;
+    color: #f72585; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    font-size: 20px; /* Tamaño de la letra */
 }
+/* Estilos para la navegación (nav) */
 nav{
-    width: 20%;
-    float: left;
+    width: 20%; /* Ancho relativo al elemento padre */
+    float: left; /* Flota el elemento a la izquierda; el contenido lo rodea */
 }
+/* Estilos para los links (a) que están dentro de la navegación (nav) */
 nav a{
-    background-color: #f71570;
-    border-radius: 10px 0 10px 0;
-    color: #fff;
-    margin: 10px;
-    padding: 10px;
-    text-decoration: none;
-    display: block;
+    background-color: #f71570; /* Color de fondo */
+    border-radius: 10px 0 10px 0; /* Redondea las esquinas */
+    color: #fff; /* Color del texto */
+    margin: 10px; /* Margen: espacio externo alrededor del elemento */
+    padding: 10px; /* Relleno: espacio interno entre el contenido y el borde */
+    text-decoration: none; /* Sin subrayado ni otras decoraciones */
+    display: block; /* Se muestra como bloque: ocupa todo el ancho disponible */
 
 }
+/* Estilos para las secciones (section) */
 section{
-    float: right;
-    width: 75%;
-    color: #7209b7;
-    border-radius: 5px;
-    box-shadow: 1px 0 4px rgb(0,0,0,.2);
-    margin-bottom: 15px;
-    padding: 15px;
+    float: right; /* Flota el elemento a la derecha; el contenido lo rodea */
+    width: 75%; /* Ancho relativo al elemento padre */
+    color: #7209b7; /* Color del texto */
+    border-radius: 5px; /* Redondea las esquinas */
+    box-shadow: 1px 0 4px rgb(0,0,0,.2); /* Sombra de la caja (desplazamiento x, y, desenfoque y color) */
+    margin-bottom: 15px; /* Margen externo inferior */
+    padding: 15px; /* Relleno: espacio interno entre el contenido y el borde */
 }
+/* Estilos para el contenido lateral (aside) */
 aside{
-    float:right;
-    width: 30%;
-    padding: 5px;
-    margin: 5px;
-    font-style: italic;
-    color: #4361ee;
-    box-shadow: inset 5px 0 5px -5px #4895ef;
+    float:right; /* Flota el elemento a la derecha; el contenido lo rodea */
+    width: 30%; /* Ancho relativo al elemento padre */
+    padding: 5px; /* Relleno: espacio interno entre el contenido y el borde */
+    margin: 5px; /* Margen: espacio externo alrededor del elemento */
+    font-style: italic; /* Texto en cursiva */
+    color: #4361ee; /* Color del texto */
+    box-shadow: inset 5px 0 5px -5px #4895ef; /* Sombra de la caja (desplazamiento x, y, desenfoque y color) */
 }
+/* Estilos para el pie de página (footer) */
 footer{
-    clear: both;
-    padding: 1px;
-    text-align: center;
+    clear: both; /* No permite elementos flotantes a ningún lado */
+    padding: 1px; /* Relleno: espacio interno entre el contenido y el borde */
+    text-align: center; /* Centra el texto */
 }
+/* Estilos para los links (a) que están dentro del pie de página (footer) */
 footer a{
-    text-decoration: none;
+    text-decoration: none; /* Sin subrayado ni otras decoraciones */
 }

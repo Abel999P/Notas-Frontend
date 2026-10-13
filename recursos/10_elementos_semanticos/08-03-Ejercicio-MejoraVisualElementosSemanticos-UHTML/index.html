@@ -1,40 +1,63 @@
 <!DOCTYPE html>
+<!-- La línea anterior declara que el documento usa HTML5 -->
+<!-- Elemento raíz; lang indica el idioma del contenido -->
 <html lang="en">
+<!-- head: información de la página que no se muestra directamente -->
 <head>
+    <!-- Codificación de caracteres (permite acentos y ñ) -->
     <meta charset="UTF-8">
+    <!-- Pide a Internet Explorer usar su motor de renderizado más reciente -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Ajusta el ancho de la página al de la pantalla (diseño responsivo) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que aparece en la pestaña del navegador -->
     <title>Etiquetas Semánticas en HTML</title>
+    <!-- Vincula la hoja de estilos externa /css/estilos.css -->
     <link href="/css/estilos.css" rel="stylesheet"/>
 </head>
+<!-- body: contenido visible de la página -->
 <body>
+    <!-- Encabezado de la página o sección (elemento semántico) -->
     <header>
+        <!-- Encabezado principal (nivel 1) -->
         <h1>Etiquetas Semánticas en HTML5</h1>
     </header>
+    <!-- Menú de navegación (elemento semántico) -->
     <nav>
+        <!-- Link de ejemplo: href="#" no cambia de página -->
         <a href="#">Inicio</a>
         <a href="#">Servicios</a>
         <a href="#">Contacto</a>
         <a href="#">Acerca De</a>
     </nav>
+    <!-- Sección temática (elemento semántico) -->
     <section>
+        <!-- Encabezado de nivel 2 -->
         <h2>Sección 1</h2>
+        <!-- Párrafo -->
         <p>Información de la sección.</p>
+        <!-- Contenido complementario o lateral (elemento semántico) -->
         <aside>
             <p>Nombre del Autor</p>
         </aside>
     </section>
+    <!-- Sección temática (elemento semántico) -->
     <section>
         <h2>Sección 2</h2>
+        <!-- Contenido independiente, como una noticia o entrada (elemento semántico) -->
         <article>
+            <!-- Encabezado de nivel 3 -->
             <h3>Artículo 1</h3>
         </article>
+        <!-- Contenido independiente, como una noticia o entrada (elemento semántico) -->
         <article>
             <h3>Artículo 2</h3>
         </article>
     </section>
+    <!-- Pie de página o de sección (elemento semántico) -->
     <footer>
         <h2>
+            <!-- Link a un sitio externo (ruta absoluta) -->
             <a href="http://www.globalmentoring.com.mx">
                 GlobalMentoring.com.mx
             </a>
