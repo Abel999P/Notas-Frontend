@@ -1,12 +1,14 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    color: crimson;
+    text-align: center; /* Centra el texto */
+    color: crimson; /* Color del texto (color por nombre) */
 }
+/* Estilos para los div */
 div{
-    position: relative;
-    top:100px;
-    left:50px;
-    max-width: 50%;
-    border: 3px solid firebrick;
-    margin: auto;
+    position: relative; /* Se mueve respecto a su posición normal */
+    top:100px; /* Distancia desde arriba (según position) */
+    left:50px; /* Distancia desde la izquierda (según position) */
+    max-width: 50%; /* Ancho máximo relativo al elemento padre */
+    border: 3px solid firebrick; /* Borde (atajo: grosor, estilo y color) */
+    margin: auto; /* Margen automático: centra el elemento horizontalmente */
 }

@@ -1,36 +1,42 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    color: #457b9d;
+    text-align: center; /* Centra el texto */
+    color: #457b9d; /* Color del texto en hexadecimal */
 }
+/* Estilos para los div con la clase "contenedor" */
 div.contenedor{
-    width: 80%;
-    height: 20%;
-    overflow: auto;
-    margin: auto;
-    border: 3px dashed #a8dadc;
+    width: 80%; /* Ancho relativo al elemento padre */
+    height: 20%; /* Alto relativo al elemento padre */
+    overflow: auto; /* Muestra barras de desplazamiento solo si hacen falta */
+    margin: auto; /* Margen automático: centra el elemento horizontalmente */
+    border: 3px dashed #a8dadc; /* Borde (atajo: grosor, estilo y color) */
 }
+/* Estilos para los span */
 span{
-    font-weight: bolder;
-    font-style: italic;
-    font-size: larger;
-    background-color: #a8dadc;
-    border: 1px solid #457b9d;
-    height: 50px;
-    padding: 5px;
-    display: inline-block;
+    font-weight: bolder; /* Texto más grueso */
+    font-style: italic; /* Texto en cursiva */
+    font-size: larger; /* Tamaño de la letra con palabra clave (larger) */
+    background-color: #a8dadc; /* Color de fondo en hexadecimal */
+    border: 1px solid #457b9d; /* Borde (atajo: grosor, estilo y color) */
+    height: 50px; /* Alto */
+    padding: 5px; /* Relleno: espacio interno entre el contenido y el borde */
+    display: inline-block; /* En línea, pero acepta ancho, alto y padding */
 }
+/* Estilos para los elementos con la clase "menu" */
 .menu{
-    list-style-type: none;
-    text-align: center;
+    list-style-type: none; /* Quita las viñetas o números de la lista */
+    text-align: center; /* Centra el texto */
 }
+/* Estilos para los elementos de lista (li) que están dentro de los elementos con la clase "menu" */
 .menu li{
-    display: inline-block;
-    padding: 15px;
-    margin: 20px;
-    background-color: #e63946;
-    border-radius: 5px;
+    display: inline-block; /* En línea, pero acepta ancho, alto y padding */
+    padding: 15px; /* Relleno: espacio interno entre el contenido y el borde */
+    margin: 20px; /* Margen: espacio externo alrededor del elemento */
+    background-color: #e63946; /* Color de fondo en hexadecimal */
+    border-radius: 5px; /* Redondea las esquinas */
 }
+/* Estilos para los links (a) */
 a{
-    text-decoration: none;
-    color: #f1faee;
+    text-decoration: none; /* Sin subrayado ni otras decoraciones */
+    color: #f1faee; /* Color del texto en hexadecimal */
 }

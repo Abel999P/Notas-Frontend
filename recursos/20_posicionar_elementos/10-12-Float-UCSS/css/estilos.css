@@ -1,12 +1,13 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    color: crimson;
+    text-align: center; /* Centra el texto */
+    color: crimson; /* Color del texto (color por nombre) */
 }
+/* Estilos para los div con la clase "contenedor" */
 div.contenedor{
-    border: 3px dashed greenyellow;
-    width: 30%;
-    height: 100px;
-    overflow: auto;
-    float: left;
+    border: 3px dashed greenyellow; /* Borde (atajo: grosor, estilo y color) */
+    width: 30%; /* Ancho relativo al elemento padre */
+    height: 100px; /* Alto */
+    overflow: auto; /* Muestra barras de desplazamiento solo si hacen falta */
+    float: left; /* Flota el elemento a la izquierda; el contenido lo rodea */
 }
-
