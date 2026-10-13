@@ -1,7 +1,8 @@
+/* Estilos para los encabezados h1 */
 h1{
-    color: #ef476f;
-    background-color: beige;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px #ced4da;
+    color: #ef476f; /* Color del texto en hexadecimal */
+    background-color: beige; /* Color de fondo (color por nombre) */
+    text-align: center; /* Centra el texto */
+    text-transform: uppercase; /* Convierte el texto a MAYÚSCULAS */
+    text-shadow: 2px 2px 2px #ced4da; /* Sombra del texto (desplazamiento x, y, desenfoque y color) */
 }
