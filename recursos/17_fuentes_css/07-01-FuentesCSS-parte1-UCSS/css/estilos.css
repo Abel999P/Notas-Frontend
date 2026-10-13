@@ -1,23 +1,27 @@
+/* Estilos para los encabezados h1 */
 h1{
-    color: #ef476f;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px #ced4da;
+    color: #ef476f; /* Color del texto en hexadecimal */
+    text-align: center; /* Centra el texto */
+    text-transform: uppercase; /* Convierte el texto a MAYÚSCULAS */
+    text-shadow: 2px 2px 2px #ced4da; /* Sombra del texto (desplazamiento x, y, desenfoque y color) */
 }
+/* Estilos para los elementos con la clase "caja" */
 .caja{
-    padding: 5px;
-    width: 40%;
-    height: 80px;
-    border-radius: 5px;
-    color: white;
-    text-align: center;
-    margin: 10px;
-    font-size: 20px;
-    float: left;
+    padding: 5px; /* Relleno: espacio interno entre el contenido y el borde */
+    width: 40%; /* Ancho relativo al elemento padre */
+    height: 80px; /* Alto */
+    border-radius: 5px; /* Redondea las esquinas */
+    color: white; /* Color del texto (color por nombre) */
+    text-align: center; /* Centra el texto */
+    margin: 10px; /* Margen: espacio externo alrededor del elemento */
+    font-size: 20px; /* Tamaño de la letra */
+    float: left; /* Flota el elemento a la izquierda; el contenido lo rodea */
 }
+/* Estilos para los elementos con las clases "caja" y "serif" */
 .caja.serif{
-    background-color: #5a189a;
+    background-color: #5a189a; /* Color de fondo en hexadecimal */
 }
+/* Estilos para los elementos con la clase "fuente_times" */
 .fuente_times{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; /* Tipo de letra (si no está la primera, usa la siguiente) */
 }
