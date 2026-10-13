@@ -1,23 +1,29 @@
+/* Estilos para los encabezados h1, los div y los párrafos (p) */
 h1, div, p{
-    border: 3px solid blueviolet;
-    text-align: center;
-    color: cornflowerblue;
-    padding: 10px;
-    display: block;
+    border: 3px solid blueviolet; /* Borde (atajo: grosor, estilo y color) */
+    text-align: center; /* Centra el texto */
+    color: cornflowerblue; /* Color del texto (color por nombre) */
+    padding: 10px; /* Relleno: espacio interno entre el contenido y el borde */
+    display: block; /* Se muestra como bloque: ocupa todo el ancho disponible */
 }
+/* Estilos para los encabezados h1 */
 h1{
-    display: none;
+    display: none; /* Oculta el elemento (no ocupa espacio) */
 }
+/* Estilos para los párrafos (p) */
 p{
-    visibility: hidden;
+    visibility: hidden; /* Oculta el elemento pero sigue ocupando su espacio */
 }
+/* Estilos para los span */
 span{
-    display: inline;
-    border: 1px solid blue;
+    display: inline; /* Se muestra en línea: no acepta ancho ni alto */
+    border: 1px solid blue; /* Borde (atajo: grosor, estilo y color) */
 }
+/* Estilos para los links (a) */
 a{
-    display: block;
+    display: block; /* Se muestra como bloque: ocupa todo el ancho disponible */
 }
+/* Estilos para los elementos de lista (li) */
 li{
-    display: inline;
+    display: inline; /* Se muestra en línea: no acepta ancho ni alto */
 }
