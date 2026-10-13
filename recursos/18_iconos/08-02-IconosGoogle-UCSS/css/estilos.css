@@ -1,18 +1,22 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    color: crimson;
+    text-align: center; /* Centra el texto */
+    color: crimson; /* Color del texto (color por nombre) */
 }
+/* Estilos para los div */
 div{
-    padding: 15px;
-    margin: auto;
-    max-width: 400px;
+    padding: 15px; /* Relleno: espacio interno entre el contenido y el borde */
+    margin: auto; /* Margen automático: centra el elemento horizontalmente */
+    max-width: 400px; /* Ancho máximo */
 }
+/* Estilos para los elementos con la clase "icono_azul" */
 .icono_azul{
-    font-size: 2.5em; 
-    color: cornflowerblue;
-    vertical-align: bottom;
+    font-size: 2.5em; /* Tamaño de la letra (em: relativo al tamaño de letra del padre) */
+    color: cornflowerblue; /* Color del texto (color por nombre) */
+    vertical-align: bottom; /* Alineación vertical */
 }
+/* Estilos para los elementos con la clase "icono_rojo" */
 .icono_rojo{
-    font-size: 3em;
-    color: crimson;
+    font-size: 3em; /* Tamaño de la letra (em: relativo al tamaño de letra del padre) */
+    color: crimson; /* Color del texto (color por nombre) */
 }

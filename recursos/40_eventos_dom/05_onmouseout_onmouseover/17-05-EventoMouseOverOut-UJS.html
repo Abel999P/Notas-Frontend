@@ -1,14 +1,23 @@
 <!DOCTYPE html>
+<!-- La línea anterior declara que el documento usa HTML5 -->
+<!-- Elemento raíz; lang indica el idioma del contenido -->
 <html>
+<!-- head: información de la página que no se muestra directamente -->
 <head>
+    <!-- Codificación de caracteres (permite acentos y ñ) -->
     <meta charset="UTF-8">
+    <!-- Título que aparece en la pestaña del navegador -->
     <title>Manejo DOM con JavaScript</title>
 </head>
+<!-- body: contenido visible de la página -->
 <body>
+    <!-- Encabezado principal (nivel 1) con id "titulo"; onmouseover ejecuta rojo(this) al pasar el mouse por encima; onmouseout ejecuta azul(this) cuando el mouse sale del elemento -->
     <h1 id='titulo' onmouseover="rojo(this)" onmouseout="azul(this)">
         Manejo DOM con JavaScript
     </h1>
+    <!-- Salto de línea -->
     <br/>
+    <!-- Carga el archivo JavaScript ./script/script.js (va al final del body para que el HTML ya esté cargado) -->
     <script src="./script/script.js"></script>
 </body>
 </html>

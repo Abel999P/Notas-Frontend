@@ -1,4 +1,5 @@
+/* Estilos para los encabezados h1, los encabezados h2, los párrafos (p) y los div */
 h1, h2, p, div{
-    color: crimson;
-    text-align: center;
+    color: crimson; /* Color del texto */
+    text-align: center; /* Centra el texto */
 }

@@ -1,38 +1,48 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    color: #e63946;
+    text-align: center; /* Centra el texto */
+    color: #e63946; /* Color del texto en hexadecimal */
 }
+/* Estilos para los elementos con la clase "caja" */
 .caja{
-    padding: 10px;
-    color: white;
-    width: 100px;
-    height: 50px;
-    text-align: center;
-    margin: 5px auto;
-    font-size: 10px;
-    float: left;
+    padding: 10px; /* Relleno: espacio interno entre el contenido y el borde */
+    color: white; /* Color del texto (color por nombre) */
+    width: 100px; /* Ancho */
+    height: 50px; /* Alto */
+    text-align: center; /* Centra el texto */
+    margin: 5px auto; /* Margen 5px arriba/abajo y automático a los lados (centra horizontalmente) */
+    font-size: 10px; /* Tamaño de la letra */
+    float: left; /* Flota el elemento a la izquierda; el contenido lo rodea */
 }
+/* Estilos para los elementos con la clase "rojo" */
 .rojo{
-    background-color: crimson;
+    background-color: crimson; /* Color de fondo (color por nombre) */
 }
+/* Estilos para los elementos con la clase "rosa" */
 .rosa{
-    background-color: deeppink;
+    background-color: deeppink; /* Color de fondo (color por nombre) */
 }
+/* Estilos para los elementos con la clase "rgb" */
 .rgb{
-    background-color: rgb(131,56,236);
+    background-color: rgb(131,56,236); /* Color de fondo en RGB (rojo, verde y azul de 0 a 255) */
 }
+/* Estilos para los elementos con la clase "rgba" */
 .rgba{
-    background-color: rgba(131, 56, 236, .5);
+    background-color: rgba(131, 56, 236, .5); /* Color de fondo con transparencia (rgba: rojo, verde, azul y opacidad) */
 }
+/* Estilos para los elementos con la clase "hexadecimal" */
 .hexadecimal{
-    background-color: #0091ad;
+    background-color: #0091ad; /* Color de fondo en hexadecimal */
 }
+/* Estilos para los elementos con la clase "hexa_transparencia" */
 .hexa_transparencia{
-    background-color: #0090ad88;
+    background-color: #0090ad88; /* Color de fondo en hexadecimal con transparencia (últimos dígitos = opacidad) */
 }
+/* Estilos para los elementos con la clase "hsl" */
 .hsl{
-    background-color: hsl(195, 100%, 50%);
+    background-color: hsl(195, 100%, 50%); /* Color de fondo en HSL (tono, saturación y luminosidad) */
 }
+/* Estilos para los elementos con la clase "hsla" */
 .hsla{
-    background-color: rgba(0, 191, 255, 0.5);
+    background-color: rgba(0, 191, 255, 0.5); /* Color de fondo con transparencia (rgba: rojo, verde, azul y opacidad) */
 }

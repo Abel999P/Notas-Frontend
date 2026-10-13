@@ -1,65 +1,95 @@
 <!DOCTYPE html>
+<!-- La línea anterior declara que el documento usa HTML5 -->
+<!-- Elemento raíz; lang indica el idioma del contenido -->
 <html lang="en">
+<!-- head: información de la página que no se muestra directamente -->
 <head>
+    <!-- Codificación de caracteres (permite acentos y ñ) -->
     <meta charset="UTF-8">
+    <!-- Pide a Internet Explorer usar su motor de renderizado más reciente -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Ajusta el ancho de la página al de la pantalla (diseño responsivo) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que aparece en la pestaña del navegador -->
     <title>Formularios en HTML</title>
 </head>
+<!-- body: contenido visible de la página -->
 <body>
+    <!-- Encabezado principal (nivel 1) -->
     <h1>Formularios en HTML</h1>
+    <!-- Formulario; action indica a dónde se envían los datos -->
     <form action="mi_servidor">
+        <!-- Agrupa campos relacionados del formulario con un recuadro -->
         <fieldset>
+            <!-- Título del grupo de campos (fieldset) -->
             <legend>Datos Persona:</legend>
 
+            <!-- Etiqueta del campo; for debe coincidir con el id del campo -->
             <label for="idPersona">Id Persona:</label><br/>
+            <!-- Campo de texto de una línea con id "idPersona"; name es el nombre con el que se envía el dato, readonly es solo lectura -->
             <input type="text" id="idPersona" name="idPersona" 
                 readonly="true" value="100" /><br/>
 
+            <!-- Campo oculto: envía un valor sin mostrarlo con id "sistema"; name es el nombre con el que se envía el dato -->
             <input type="hidden" id="sistema" name="sistema" value="SAP"/>
 
             <label for="nombre">Nombre:</label><br/>
+            <!-- Campo de texto de una línea con id "nombre"; name es el nombre con el que se envía el dato, placeholder es el texto de ayuda, required lo hace obligatorio -->
             <input type="text" id="nombre" name="nombre" 
                 placeholder="Escribe tu nombre" required="true"/><br/>
 
             <label for="apellido">Apellido:</label><br/>
+            <!-- Campo de texto de una línea con id "apellido"; name es el nombre con el que se envía el dato, placeholder es el texto de ayuda, required lo hace obligatorio -->
             <input type="text" id="apellido" name="apellido"
                 placeholder="Escribe tu apellido" required="true"/><br/>
 
             <label for="email">Email:</label><br/>
+            <!-- Campo de correo electrónico (valida que tenga formato de email) con id "email"; name es el nombre con el que se envía el dato -->
             <input type="email" id="email" name="email"/><br/> 
 
             <label for="edad">Edad:</label><br/>
+            <!-- Campo numérico con id "edad"; name es el nombre con el que se envía el dato -->
             <input type="number" id="edad" name="edad"/><br/>
 
             <label>Género</label><br/>
+            <!-- Botón de opción (solo se elige uno del mismo name) con id "femenino"; name es el nombre con el que se envía el dato -->
             <input type="radio" id="femenino" name="genero" value="femenino"/>
             <label for="femenino">Femenino</label><br/>
+            <!-- Botón de opción (solo se elige uno del mismo name) con id "masculino"; name es el nombre con el que se envía el dato -->
             <input type="radio" id="masculino" name="genero" value="masculino"/>
             <label for="masculino">Masculino</label><br/>     
             
             <label>Género Música Favorita</label><br/>
+            <!-- Casilla de verificación (se pueden marcar varias) con id "clasica"; name es el nombre con el que se envía el dato -->
             <input type="checkbox" id="clasica" name="musica" value="clasica"/>
             <label for="clasica">Clásica</label><br/>
+            <!-- Casilla de verificación (se pueden marcar varias) con id "jazz"; name es el nombre con el que se envía el dato -->
             <input type="checkbox" id="jazz" name="musica" value="jazz"/>
             <label for="jazz">Jazz</label><br/>
             
             <label for="autos">Marca Auto favorita:</label><br/>
+            <!-- Lista desplegable de opciones con id "autos" -->
             <select id="autos" name="autos">
+                <!-- Opción de la lista; value es lo que se envía -->
                 <option value="volvo">Volvo</option>
                 <option value="bmw">BMW</option>
                 <option value="audi" selected="true">Audi</option>
             </select><br/>
 
             <label for="comentario">Comentario:</label><br/>
+            <!-- Área de texto de varias líneas (rows y cols definen su tamaño) con id "comentario" -->
             <textarea id="comentario" name="comentario" rows="2" cols="30"
             >Este es mi comentario    
             </textarea><br/>
 
+            <!-- Salto de línea -->
             <br/>
+            <!-- Botón que envía el formulario -->
             <input type="submit" value="Enviar"/>
+            <!-- Botón que envía el formulario -->
             <input type="submit" formnovalidate="formnovalidate" 
                 value="Enviar sin validar"/>
+            <!-- Botón que limpia el formulario -->
             <input type="reset" value="Restablecer"/>
             
         </fieldset>    

@@ -1,25 +1,30 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    color: crimson;
+    text-align: center; /* Centra el texto */
+    color: crimson; /* Color del texto (color por nombre) */
 }
+/* Estilos para los div con la clase "contenedor" */
 div.contenedor{
-    width: 30%;
-    height: 100px;
-    overflow: auto;
+    width: 30%; /* Ancho relativo al elemento padre */
+    height: 100px; /* Alto */
+    overflow: auto; /* Muestra barras de desplazamiento solo si hacen falta */
 }
+/* Estilos para los div con las clases "contenedor" y "flotado" */
 div.contenedor.flotado{
-    float: left;
+    float: left; /* Flota el elemento a la izquierda; el contenido lo rodea */
 }
+/* Estilos para los div con las clases "contenedor", "flotado" y "contenedor1" */
 div.contenedor.flotado.contenedor1{
-    border: 3px dashed greenyellow;
+    border: 3px dashed greenyellow; /* Borde (atajo: grosor, estilo y color) */
 }
+/* Estilos para los div con las clases "contenedor", "flotado" y "contenedor2" */
 div.contenedor.flotado.contenedor2{
-    border: 3px dashed cornflowerblue;
-    float: right;
+    border: 3px dashed cornflowerblue; /* Borde (atajo: grosor, estilo y color) */
+    float: right; /* Flota el elemento a la derecha; el contenido lo rodea */
 }
+/* Estilos para los div con las clases "contenedor" y "contenedor3" */
 div.contenedor.contenedor3{
-    clear: both;
-    border: 3px dashed darkorange;
-    margin: auto;
+    clear: both; /* No permite elementos flotantes a ningún lado */
+    border: 3px dashed darkorange; /* Borde (atajo: grosor, estilo y color) */
+    margin: auto; /* Margen automático: centra el elemento horizontalmente */
 }
-

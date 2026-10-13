@@ -1,22 +1,36 @@
 <!DOCTYPE html>
+<!-- La línea anterior declara que el documento usa HTML5 -->
+<!-- Elemento raíz; lang indica el idioma del contenido -->
 <html lang="en">
+<!-- head: información de la página que no se muestra directamente -->
 <head>
+    <!-- Codificación de caracteres (permite acentos y ñ) -->
     <meta charset="UTF-8">
+    <!-- Pide a Internet Explorer usar su motor de renderizado más reciente -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Ajusta el ancho de la página al de la pantalla (diseño responsivo) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que aparece en la pestaña del navegador -->
     <title>Formularios en HTML</title>
 </head>
+<!-- body: contenido visible de la página -->
 <body>
+    <!-- Encabezado principal (nivel 1) -->
     <h1>Formularios en HTML</h1>
+    <!-- Formulario -->
     <form >
+        <!-- Etiqueta del campo; for debe coincidir con el id del campo -->
         <label for="nombre">Nombre:</label><br/>
+        <!-- Campo de texto de una línea con id "nombre"; name es el nombre con el que se envía el dato, placeholder es el texto de ayuda -->
         <input type="text" id="nombre" name="nombre" 
             placeholder="Escribe tu nombre"/><br/>
 
         <label for="apellido">Apellido:</label><br/>
+        <!-- Campo de texto de una línea con id "apellido"; name es el nombre con el que se envía el dato, placeholder es el texto de ayuda -->
         <input type="text" id="apellido" name="apellido"
             placeholder="Escribe tu apellido"/><br/>
 
+        <!-- Botón que envía el formulario -->
         <input type="submit" value="Enviar"/>
     </form>
 </body>

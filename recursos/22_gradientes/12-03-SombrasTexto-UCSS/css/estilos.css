@@ -1,12 +1,14 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    text-shadow: 2px 2px 5px grey;
+    text-align: center; /* Centra el texto */
+    text-shadow: 2px 2px 5px grey; /* Sombra del texto (desplazamiento x, y, desenfoque y color) */
 }
+/* Estilos para los div con la clase "contenedor" */
 div.contenedor{
-    width: 30%;
-    height: 20%;
-    margin: auto;
-    border: 3px solid #a8dadc;
-    padding: 15px;
-    text-align: center;
+    width: 30%; /* Ancho relativo al elemento padre */
+    height: 20%; /* Alto relativo al elemento padre */
+    margin: auto; /* Margen automático: centra el elemento horizontalmente */
+    border: 3px solid #a8dadc; /* Borde (atajo: grosor, estilo y color) */
+    padding: 15px; /* Relleno: espacio interno entre el contenido y el borde */
+    text-align: center; /* Centra el texto */
 }

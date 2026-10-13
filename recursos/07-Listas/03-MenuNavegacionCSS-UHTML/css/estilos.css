@@ -1,23 +1,28 @@
+/* Estilos para los encabezados h1 */
 h1{
-    color: #1d3557;
+    color: #1d3557; /* Color del texto */
 }
+/* Estilos para las listas desordenadas (ul) */
 ul{
-    list-style-type: none;
-    background-color: #457b9d;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+    list-style-type: none; /* Quita las viñetas o números de la lista */
+    background-color: #457b9d; /* Color de fondo */
+    overflow: hidden; /* Oculta el contenido que se sale de la caja */
+    margin: 0; /* Margen: espacio externo alrededor del elemento */
+    padding: 0; /* Relleno: espacio interno entre el contenido y el borde */
 }
+/* Estilos para los elementos de lista (li) */
 li{
-    float: left;
+    float: left; /* Flota el elemento a la izquierda; el contenido lo rodea */
 }
+/* Estilos para los links (a) que están dentro de los elementos de lista (li) */
 li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
+    display: block; /* Se muestra como bloque: ocupa todo el ancho disponible */
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 15px; /* Relleno: espacio interno entre el contenido y el borde */
+    text-decoration: none; /* Sin subrayado ni otras decoraciones */
 }
+/* Estilos para los links (a) que están dentro de los elementos de lista (li), al pasar el mouse por encima */
 li a:hover{
-    background-color: #1d3557;
+    background-color: #1d3557; /* Color de fondo */
 }

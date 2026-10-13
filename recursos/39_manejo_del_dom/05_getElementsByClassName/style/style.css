@@ -1,5 +1,5 @@
 
+/* Estilos para los elementos con la clase "azul" */
 .azul{
-	color:blue;
+	color:blue; /* Color del texto (color por nombre) */
 }
-

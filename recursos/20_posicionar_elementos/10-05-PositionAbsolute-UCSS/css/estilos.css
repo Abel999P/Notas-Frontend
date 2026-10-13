@@ -1,18 +1,21 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    color: crimson;
+    text-align: center; /* Centra el texto */
+    color: crimson; /* Color del texto (color por nombre) */
 }
+/* Estilos para los div con la clase "relativo" */
 div.relativo{
-    max-width: 300px;
-    height: 200px;
-    position: relative;
-    top:10px;
-    left: 100px;
-    border: 3px solid cornflowerblue;
+    max-width: 300px; /* Ancho máximo */
+    height: 200px; /* Alto */
+    position: relative; /* Se mueve respecto a su posición normal */
+    top:10px; /* Distancia desde arriba (según position) */
+    left: 100px; /* Distancia desde la izquierda (según position) */
+    border: 3px solid cornflowerblue; /* Borde (atajo: grosor, estilo y color) */
 }
+/* Estilos para los div con la clase "absoluto" */
 div.absoluto{
-    position: absolute;
-    bottom:20px;
-    right:10px;
-    border: 3px solid firebrick;
+    position: absolute; /* Se posiciona respecto al ancestro posicionado más cercano */
+    bottom:20px; /* Distancia desde abajo (según position) */
+    right:10px; /* Distancia desde la derecha (según position) */
+    border: 3px solid firebrick; /* Borde (atajo: grosor, estilo y color) */
 }

@@ -1,25 +1,44 @@
 <!DOCTYPE html>
+<!-- La línea anterior declara que el documento usa HTML5 -->
+<!-- Elemento raíz; lang indica el idioma del contenido -->
 <html lang="en">
+<!-- head: información de la página que no se muestra directamente -->
 <head>
+    <!-- Codificación de caracteres (permite acentos y ñ) -->
     <meta charset="UTF-8">
+    <!-- Pide a Internet Explorer usar su motor de renderizado más reciente -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Ajusta el ancho de la página al de la pantalla (diseño responsivo) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que aparece en la pestaña del navegador -->
     <title>Formulario Login</title>
+    <!-- Vincula la hoja de estilos externa /css/estilos.css -->
     <link href="/css/estilos.css" rel="stylesheet"/>
 </head>
+<!-- body: contenido visible de la página -->
 <body>
+    <!-- Contenedor de bloque (div) con la clase "contenedor" -->
     <div class="contenedor">
+        <!-- Encabezado de nivel 2 -->
         <h2>Login</h2>
+        <!-- Formulario con id "forma" -->
         <form id="forma" name="forma">
+            <!-- Contenedor de bloque (div) con la clase "elemento" -->
             <div class="elemento">
+                <!-- Etiqueta del campo; for debe coincidir con el id del campo -->
                 <label for="usuario">Usuario</label>
+                <!-- Campo de texto de una línea con id "usuario"; name es el nombre con el que se envía el dato, required lo hace obligatorio -->
                 <input type="text" id="usuario" name="usuario" required="true"/>
             </div>
+            <!-- Contenedor de bloque (div) con la clase "elemento" -->
             <div class="elemento">
                 <label for="password">Password</label>
+                <!-- Campo de contraseña (oculta lo que se escribe) con id "password"; name es el nombre con el que se envía el dato, required lo hace obligatorio -->
                 <input type="password" id="password" name="password" required="true"/>
             </div>
+            <!-- Contenedor de bloque (div) con la clase "elemento" -->
             <div class="elemento">
+                <!-- Botón que envía el formulario -->
                 <input type="submit" value="Enviar"/>
             </div>
         </form>

@@ -1,6 +1,7 @@
+/* Estilos para el cuerpo de la página (body) */
 body{
-    background-color: dodgerblue;
-    color: cornsilk;
-    background-image: url("/img/fondo.png");
-    background-repeat: no-repeat;
+    background-color: dodgerblue; /* Color de fondo (color por nombre) */
+    color: cornsilk; /* Color del texto (color por nombre) */
+    background-image: url("/img/fondo.png"); /* Imagen o degradado de fondo */
+    background-repeat: no-repeat; /* La imagen de fondo no se repite */
 }

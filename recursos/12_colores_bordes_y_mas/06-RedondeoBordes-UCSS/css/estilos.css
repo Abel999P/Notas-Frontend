@@ -1,12 +1,15 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
+    text-align: center; /* Centra el texto */
 }
+/* Estilos para los elementos con la clase "solido" */
 .solido{
-    border: solid red;
-    border-width: 5px;
-    border-radius: 20px;
+    border: solid red; /* Borde (atajo: grosor, estilo y color) */
+    border-width: 5px; /* Grosor del borde */
+    border-radius: 20px; /* Redondea las esquinas */
 }
+/* Estilos para los elementos con la clase "redondeado" */
 .redondeado{
-    border: 5px solid blueviolet;
-    border-radius: 20px 0px 10px 0px;
+    border: 5px solid blueviolet; /* Borde (atajo: grosor, estilo y color) */
+    border-radius: 20px 0px 10px 0px; /* Redondea cada esquina (sup-izq, sup-der, inf-der, inf-izq) */
 }

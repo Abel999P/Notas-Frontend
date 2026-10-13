@@ -1,23 +1,28 @@
+/* Estilos para los elementos con la clase "titulo" */
 .titulo{
-    color: #f72585;
-    text-align: center;
+    color: #f72585; /* Color del texto */
+    text-align: center; /* Centra el texto */
 }
+/* Estilos para los elementos con la clase "marco" */
 .marco{
-    width: 100%;
-    height: 200px;
-    border: 1px solid #f72585;
+    width: 100%; /* Ancho relativo al elemento padre */
+    height: 200px; /* Alto */
+    border: 1px solid #f72585; /* Borde (atajo: grosor, estilo y color) */
 }
+/* Estilos para los elementos con la clase "centrar" */
 .centrar{
-    text-align: center;
+    text-align: center; /* Centra el texto */
 }
+/* Estilos para los elementos con la clase "boton" */
 .boton{
-    background-color: white;
-    border: 2px solid #457b9d;
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
+    background-color: white; /* Color de fondo */
+    border: 2px solid #457b9d; /* Borde (atajo: grosor, estilo y color) */
+    text-decoration: none; /* Sin subrayado ni otras decoraciones */
+    display: inline-block; /* En línea, pero acepta ancho, alto y padding */
+    padding: 10px; /* Relleno: espacio interno entre el contenido y el borde */
 }
+/* Estilos para los elementos con la clase "boton" al pasar el mouse por encima */
 .boton:hover{
-    background-color: #457b9d;
-    color: white;
+    background-color: #457b9d; /* Color de fondo */
+    color: white; /* Color del texto */
 }

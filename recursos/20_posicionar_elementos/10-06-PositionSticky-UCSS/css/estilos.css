@@ -1,10 +1,12 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    color: crimson;
+    text-align: center; /* Centra el texto */
+    color: crimson; /* Color del texto (color por nombre) */
 }
+/* Estilos para los div */
 div{
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;    
-    border: 3px solid firebrick;
+    position: sticky; /* Se queda pegado al hacer scroll al llegar a su posición */
+    position: -webkit-sticky; /* sticky con prefijo -webkit- para navegadores Safari antiguos */
+    top: 0; /* Distancia desde arriba (según position) */
+    border: 3px solid firebrick; /* Borde (atajo: grosor, estilo y color) */
 }

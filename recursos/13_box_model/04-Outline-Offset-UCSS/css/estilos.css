@@ -1,13 +1,15 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    color: #e63946;
+    text-align: center; /* Centra el texto */
+    color: #e63946; /* Color del texto en hexadecimal */
 }
+/* Estilos para los div */
 div{
-    padding: 10px;
-    border: 15px solid #457b9d;
-    margin: 20px;
-    background-color: #f1faee;
-    width: 300px;
-    outline: 10px solid #a8dadc;
-    outline-offset: 10px;
+    padding: 10px; /* Relleno: espacio interno entre el contenido y el borde */
+    border: 15px solid #457b9d; /* Borde (atajo: grosor, estilo y color) */
+    margin: 20px; /* Margen: espacio externo alrededor del elemento */
+    background-color: #f1faee; /* Color de fondo en hexadecimal */
+    width: 300px; /* Ancho */
+    outline: 10px solid #a8dadc; /* Contorno exterior (no ocupa espacio, a diferencia del borde) */
+    outline-offset: 10px; /* Separación entre el contorno y el borde */
 }

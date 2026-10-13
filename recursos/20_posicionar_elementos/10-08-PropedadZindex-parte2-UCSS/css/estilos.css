@@ -1,19 +1,22 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    color: crimson;
+    text-align: center; /* Centra el texto */
+    color: crimson; /* Color del texto (color por nombre) */
 }
+/* Estilos para los div con la clase "estatico" */
 div.estatico{
-    position: static;
-    top:10px;
-    padding: 15px;
-    border: 3px solid greenyellow;
-    background-color: whitesmoke;
+    position: static; /* Posición normal (valor por defecto): ignora top/left */
+    top:10px; /* Distancia desde arriba (según position) */
+    padding: 15px; /* Relleno: espacio interno entre el contenido y el borde */
+    border: 3px solid greenyellow; /* Borde (atajo: grosor, estilo y color) */
+    background-color: whitesmoke; /* Color de fondo (color por nombre) */
 }
+/* Estilos para los div con la clase "relativo" */
 div.relativo{
-    position: relative;
-    top: 10px;
-    left: 10px;
-    padding: 15px;
-    border: 3px solid blueviolet;
-    background-color: whitesmoke;
+    position: relative; /* Se mueve respecto a su posición normal */
+    top: 10px; /* Distancia desde arriba (según position) */
+    left: 10px; /* Distancia desde la izquierda (según position) */
+    padding: 15px; /* Relleno: espacio interno entre el contenido y el borde */
+    border: 3px solid blueviolet; /* Borde (atajo: grosor, estilo y color) */
+    background-color: whitesmoke; /* Color de fondo (color por nombre) */
 }

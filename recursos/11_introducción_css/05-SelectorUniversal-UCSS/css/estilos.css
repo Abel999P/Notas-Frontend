@@ -1,17 +1,21 @@
+/* Estilos para todos los elementos */
 *{
-    background-color: ghostwhite;
-    color: cornflowerblue;    
+    background-color: ghostwhite; /* Color de fondo */
+    color: cornflowerblue; /* Color del texto */
 }
 
+/* Estilos para el elemento con id "titulo" */
 #titulo{
-    color: crimson;
-    text-align: center;
+    color: crimson; /* Color del texto */
+    text-align: center; /* Centra el texto */
 }
 
+/* Estilos para los elementos con la clase "centrar" */
 .centrar{
-    text-align: center;
+    text-align: center; /* Centra el texto */
 }
 
+/* Estilos para los elementos con la clase "texto_grande" */
 .texto_grande{
-    font-size: 20px;
+    font-size: 20px; /* Tamaño de la letra */
 }
