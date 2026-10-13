@@ -1,11 +1,16 @@
+/* Color de los encabezados h1 */
 h1{
     color: #f07167;
 }
 
+/* Pseudoclases de los links. Se recomienda este orden: link, visited, hover, active */
+
+/* Link que aún no se ha visitado; se quita el subrayado */
 a:link {
     color:#fb8500;
     text-decoration: none;
 }
+/* Link que ya fue visitado */
 a:visited{
     color:#219ebc;
     text-decoration: none;
@@ -15,6 +20,7 @@ a:hover{
     color:#8ecae6;
     text-decoration: underline;
 }
+/* Mientras se hace clic sobre el link (se mantiene presionado) */
 a:active {
     color: #023047;
     text-decoration: underline;
