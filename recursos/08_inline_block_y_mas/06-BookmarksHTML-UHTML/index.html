@@ -1,25 +1,43 @@
 <!DOCTYPE html>
+<!-- La línea anterior declara que el documento usa HTML5 -->
+<!-- Elemento raíz; lang indica el idioma del contenido -->
 <html lang="en">
+<!-- head: información de la página que no se muestra directamente -->
 <head>
+    <!-- Codificación de caracteres (permite acentos y ñ) -->
     <meta charset="UTF-8">
+    <!-- Pide a Internet Explorer usar su motor de renderizado más reciente -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Ajusta el ancho de la página al de la pantalla (diseño responsivo) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que aparece en la pestaña del navegador -->
     <title>Atributo class HTML</title>
+    <!-- Vincula la hoja de estilos externa /css/estilos.css -->
     <link href="/css/estilos.css" rel='stylesheet'/>
 </head>
+<!-- body: contenido visible de la página -->
 <body>
+    <!-- Encabezado principal (nivel 1) con id "titulo_principal" -->
     <h1 id='titulo_principal'>Lenguajes de Programación</h1>
+    <!-- Link a la sección con id "Java" de esta misma página -->
     <a href="#Java">Java</a> |
+    <!-- Link a la sección con id "Python" de esta misma página -->
     <a href="#Python">Python</a> |
+    <!-- Link a la sección con id "JavaScript" de esta misma página -->
     <a href="#JavaScript">JavaScript</a>
+    <!-- Contenedor de bloque (div) con la clase "tarjeta" y id "Java" -->
     <div id='Java' class="tarjeta">
+        <!-- Encabezado de nivel 2 -->
         <h2 >Java</h2>
+        <!-- Párrafo -->
         <p><span class="titulo">Creador:</span> James Gosling</p>
     </div>
+    <!-- Contenedor de bloque (div) con la clase "tarjeta" y id "Python" -->
     <div id='Python' class='tarjeta'>
         <h2 >Python</h2>
         <p><span class='titulo'>Creador:</span> Guido van Rossum</p>
     </div>
+    <!-- Contenedor de bloque (div) con la clase "tarjeta" y id "JavaScript" -->
     <div id='JavaScript' class="tarjeta">
         <h2 >JavaScript</h2>
         <p><span class='titulo'>Creador:</span> Brendan Eich</p>
@@ -28,8 +46,11 @@
         <h2>Resumen Lenguajes de Programación</h2>
         <p>www.globalmentoring.com.mx</p>
     </div>
+    <!-- Link a la sección con id "Java" de esta misma página -->
     <a href="#Java">Java</a> |
+    <!-- Link a la sección con id "Python" de esta misma página -->
     <a href="#Python">Python</a> |
+    <!-- Link a la sección con id "JavaScript" de esta misma página -->
     <a href="#JavaScript">JavaScript</a>
 
 </body>
