@@ -1,15 +1,19 @@
+/* Estilos para las listas ordenadas (ol) */
 ol{
-    list-style: none;
-    counter-reset: contador;
+    list-style: none; /* Quita las viñetas o números de la lista */
+    counter-reset: contador; /* Crea (o reinicia) un contador CSS */
 }
+/* Estilos para los elementos de lista (li) que están dentro de las listas ordenadas (ol) */
 ol li{
-    counter-increment: contador;
+    counter-increment: contador; /* Aumenta el contador en cada elemento */
 }
 
+/* Estilos para contenido insertado antes de los elementos de lista (li) que están dentro de las listas ordenadas (ol) */
 ol li::before{
-    content: 'Curso ' counter(contador) ') ';
-    color:#ff6f00;
+    content: 'Curso ' counter(contador) ') '; /* Texto que se agrega con ::before o ::after (counter() muestra el valor del contador) */
+    color:#ff6f00; /* Color del texto */
 }
+/* Estilos para contenido insertado después de los elementos de lista (li) que están dentro de las listas ordenadas (ol) */
 ol li::after{
-    content: '.';
+    content: '.'; /* Texto que se agrega con ::before o ::after */
 }
