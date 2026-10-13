@@ -1,18 +1,22 @@
+/* Estilos para los encabezados h1 */
 h1{
-    text-align: center;
-    color: #e63946;
+    text-align: center; /* Centra el texto */
+    color: #e63946; /* Color del texto en hexadecimal */
 }
+/* Estilos para los div con la clase "contenedor" */
 div.contenedor{
-    width: 80%;
-    height: 20%;
-    margin: auto;
-    border: 3px solid #a8dadc;
-    padding: 15px;
-    color: #457b9d;
+    width: 80%; /* Ancho relativo al elemento padre */
+    height: 20%; /* Alto relativo al elemento padre */
+    margin: auto; /* Margen automático: centra el elemento horizontalmente */
+    border: 3px solid #a8dadc; /* Borde (atajo: grosor, estilo y color) */
+    padding: 15px; /* Relleno: espacio interno entre el contenido y el borde */
+    color: #457b9d; /* Color del texto en hexadecimal */
 }
+/* Estilos para los párrafos (p) que están dentro de los div con las clases "contenedor" y "descendiente" */
 div.contenedor.descendiente p{
-    background-color: #fdffb6;
+    background-color: #fdffb6; /* Color de fondo en hexadecimal */
 }
+/* Estilos para los párrafos (p) que son hijos directos de los div con las clases "contenedor" y "hijo" */
 div.contenedor.hijo > p{
-    background-color: #ffc6ff;
+    background-color: #ffc6ff; /* Color de fondo en hexadecimal */
 }
